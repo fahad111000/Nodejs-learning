@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "p1": "node --watch day-3-final-projects-node-js/node-project-1.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,6 @@
     "url": "https://github.com/fahad111000/Nodejs-learning/issues"
   },
   "homepage": "https://github.com/fahad111000/Nodejs-learning#readme",
-  "description": ""
+  "description": "",
+  "type": "commonjs"
 }
