@@ -1,8 +1,7 @@
 console.log("Task Management API");
 
 import http from 'http'
-import { url } from 'inspector';
-const tasks = [
+let tasks = [
     { id: 1, title: "complete React ", completed: true },
     { id: 2, title: "Learn node js ", completed: true },
     { id: 3, title: "Built API ", completed: false }
@@ -91,9 +90,21 @@ const server = http.createServer((req, res) => {
             res.end(JSON.stringify(userTask))
         })
 
-        
 
 
+
+
+    }
+    else if (req.method === "DELETE" && req.url.startsWith('/tasks/')) {
+        let parts = req.url.split('/');
+        let taskID = Number(parts[2]);
+
+        let filterTask = tasks.filter((task) => task.id !== taskID);
+        tasks = filterTask;
+
+        res.statusCode = 204;
+        console.log("Data Deleted!")
+        res.end()
 
     }
 
