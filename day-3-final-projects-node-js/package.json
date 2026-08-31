@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "p1": "node --watch node-project-1.js",
     "p2": "node --watch node-pro-2-user-Managment",
-    "p3": "node --watch Product-Management-API"
+    "p3": "node --watch Product-Management-API",
+    "p4": "node --watch project-04-promieses"
   },
   "keywords": [],
   "author": "",
