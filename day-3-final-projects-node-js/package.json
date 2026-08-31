@@ -10,7 +10,7 @@
     "p3": "node --watch Product-Management-API",
     "p4": "node --watch project-04-promieses",
     "p5": "node --watch project-5",
-    "p6": "node --watch node-grand-project-APIS.js"
+    "p6": "node --watch node-grand-project-APIS"
   },
   "keywords": [],
   "author": "",
