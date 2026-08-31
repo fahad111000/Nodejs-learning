@@ -19,9 +19,6 @@ async function getUsers() {
 async function saveUsers(users) {
 
     const userData = JSON.stringify(users, null, 2);
-    await new Promise(resolve => {
-        setTimeout(resolve, 5000);
-    });
 
     await fs.writeFile(FILE, userData);
 }
@@ -146,9 +143,7 @@ const server = http.createServer((req, res) => {
                     user => user.id !== id
                 );
 
-                console.log("before wait")
                 await saveUsers(updatedUsers);
-                console.log("after wait")
 
                 res.statusCode = 200;
 
