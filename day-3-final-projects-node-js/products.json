@@ -1,56 +1,68 @@
 [
-    {
-        "id": 1,
-        "name": "Fahad",
-        "langauge": "JS",
-        "salary ": 2150000
-    },
-    {
-        "id": 2,
-        "name": "Faisal",
-        "langauge": "Dot",
-        "salary ": 950000
-    },
-    {
-        "id": 3,
-        "name": "Raees",
-        "langauge": "python",
-        "salary ": 850000
-    },
-    {
-        "id": 4,
-        "name": "Bilal",
-        "category": "Python",
-        "salary": 750000
-    },
-    {
-        "id": 4,
-        "name": "Bilal",
-        "category": "Python",
-        "salary": 750000
-    },
-    {
-        "id": 4,
-        "name": "Bilal",
-        "category": "Python",
-        "salary": 750000
-    },
-    {
-        "id": 4,
-        "name": "Bilal",
-        "category": "Python",
-        "salary": 750000
-    },
-    {
-        "id": 4,
-        "name": "Bilal",
-        "category": "Python",
-        "salary": 750000
-    },
-    {
-        "id": 4,
-        "name": "Bilal",
-        "category": "Python",
-        "salary": 750000
-    }
+  {
+    "id": 1,
+    "name": "Fahad",
+    "langauge": "JS",
+    "salary ": 2150000
+  },
+  {
+    "id": 2,
+    "name": "Faisal",
+    "langauge": "Dot",
+    "salary ": 950000
+  },
+  {
+    "id": 3,
+    "name": "Raees",
+    "langauge": "python",
+    "salary ": 850000
+  },
+  {
+    "id": 4,
+    "name": "Bilal",
+    "category": "Python",
+    "salary": 750000
+  },
+  {
+    "id": 4,
+    "name": "Bilal",
+    "category": "Python",
+    "salary": 750000
+  },
+  {
+    "id": 4,
+    "name": "Bilal",
+    "category": "Python",
+    "salary": 750000
+  },
+  {
+    "id": 4,
+    "name": "Bilal",
+    "category": "Python",
+    "salary": 750000
+  },
+  {
+    "id": 4,
+    "name": "Bilal",
+    "category": "Python",
+    "salary": 750000
+  },
+  {
+    "id": 4,
+    "name": "Bilal",
+    "category": "Python",
+    "salary": 750000
+  },
+  {
+    "id": 10,
+    "name": "Hamza",
+    "category": "Node.js",
+    "salary": 900000
+  },
+  {
+    "id": 11,
+    "name": "Hamza khan",
+    "category": "Node.js",
+    "salary": 900000
+  }
 ]

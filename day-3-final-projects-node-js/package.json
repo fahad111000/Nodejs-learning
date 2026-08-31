@@ -8,7 +8,9 @@
     "p1": "node --watch node-project-1.js",
     "p2": "node --watch node-pro-2-user-Managment",
     "p3": "node --watch Product-Management-API",
-    "p4": "node --watch project-04-promieses"
+    "p4": "node --watch project-04-promieses",
+    "p5": "node --watch project-5",
+    "p6": "node --watch node-grand-project-APIS.js"
   },
   "keywords": [],
   "author": "",
